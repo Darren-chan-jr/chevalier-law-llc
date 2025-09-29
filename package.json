@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "npm run shadcn:setup",
     "shadcn:setup": "node -e \"console.log('You can optionally add shadcn components later.')\""
   },
   "dependencies": {
