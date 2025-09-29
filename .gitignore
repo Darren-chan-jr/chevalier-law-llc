@@ -1,0 +1,22 @@
+# Node / Next.js
+cat > .gitignore <<'EOF'
+node_modules/
+.next/
+out/
+dist/
+.vercel/
+.env*
+!.env.example
+.DS_Store
+npm-debug.log*
+yarn-*.log*
+pnpm-debug.log*
+EOF
+
+# Env & local config
+.env*
+!.env.example
+
+# OS/editor cruft
+.DS_Store
+*.swp
