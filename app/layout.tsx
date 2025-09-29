@@ -28,7 +28,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                   <Image src="/chevalier_law_white.png" alt="Chevalier Law LLC" width={28} height={28} />
                   <span className="font-semibold">Chevalier Law LLC</span>
                 </div>
-                <p className="mt-3 text-white/80">"Short Description Here"</p>
+                <p className="mt-3 text-white/80">Short Description Here</p>
                 <div className="mt-4 flex items-center gap-3">
                   <Link href="https://www.linkedin.com/company/chevalierlawllc" aria-label="LinkedIn" className="h-8 w-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center">
                     <Linkedin size={16} />
