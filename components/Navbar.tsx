@@ -23,7 +23,7 @@ export default function Navbar() {
             priority
           />
           {/* Firm name */}
-          <span className="font-bold leading-none text-xl sm:text-2xl lg:text-3xl whitespace-nowrap">
+          <span className="font-brand leading-none text-xl sm:text-2xl lg:text-3xl whitespace-nowrap">
             Chevalier Law LLC
           </span>
         </Link>

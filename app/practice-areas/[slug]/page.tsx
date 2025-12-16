@@ -50,7 +50,7 @@ export default function Page({ params }: { params: { slug: string } }) {
             className="px-4 text-3xl sm:text-5xl font-semibold tracking-wider text-white drop-shadow"
             style={{ letterSpacing: "0.08em" }}
           >
-            Practice Areas
+            {p.name}
           </h1>
         </div>
       </section>
@@ -66,7 +66,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           Back to Our Expertise
         </Link>
 
-        <h2 className="mt-6 text-2xl sm:text-[26px] font-semibold text-gray-900">{p.name}</h2>
+        <h2 className="mt-6 text-xl font-semibold text-gray-900">{"What We Do"}</h2>
 
         <div className="mt-4 space-y-4 text-[15px] leading-7 text-gray-700">
           {(p.overview ?? []).map((para, i) => (

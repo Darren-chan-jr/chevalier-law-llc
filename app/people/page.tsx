@@ -15,7 +15,7 @@ export default function Page() {
         <h2 className="text-2xl sm:text-3xl text-center font-semibold">Our Attorneys</h2>
         <p className="mt-2 text-center text-gray-600 text-sm">
           {/* replace with your subheading text */}
-          Varius quisque odio mauris lectus consequat sedretitum purus feugiat volutpat pell
+          With a combined experience of over 30 years, our team is committed to your specific needs
         </p>
       </section>
 

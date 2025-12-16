@@ -3,7 +3,6 @@ import { ReactNode } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Linkedin} from "lucide-react";
-import { practiceAreas } from "@/data/practice-areas";
 import Navbar from "@/components/Navbar";
 
 export const metadata = {
@@ -65,12 +64,18 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               <div>
                 <h4 className="font-semibold">Practice Areas</h4>
                 <ul className="mt-3 space-y-2 text-white/80">
-                  {practiceAreas.slice(0, 4).map(pa => (
-                    <li key={pa.slug}>
-                      <Link href={`/practice-areas/${pa.slug}`} className="hover:text-white">{pa.name}</Link>
-                    </li>
-                  ))}
-                  {/* If you want the exact four from the screenshot, replace with hardcoded items */}
+                  <li> 
+                    <a href={`/practice-areas`} className="hover:text-white">Corporate and Financial Services</a>
+                  </li>
+                  <li> 
+                    <a href={`/practice-areas`} className="hover:text-white">International Practices</a>
+                  </li>
+                  <li> 
+                    <a href={`/practice-areas`} className="hover:text-white">Litigation & Dispute Resolution</a>
+                  </li>
+                  <li> 
+                    <a href={`/practice-areas`} className="hover:text-white">Specialised Practices</a>
+                  </li>
                 </ul>
               </div>
             </div>

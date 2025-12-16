@@ -11,9 +11,8 @@ const COPY: Copy = {
   who: {
     title: "Who We Are",
     paragraphs: [
-      "Chevalier Law LLC is a boutique law firm with expertise in corporate, capital markets, commercial litigation, international arbitration, and corporate real estate. Our lawyers have worked at major international and local firms and advise SGX-ST listed companies as well as private enterprises.",
-      "We focus on delivering commercial, efficient, incisive and client-focused solutions for Singapore and the wider Asia-Pacific region.",
-      "Our clients include listed companies, multinational corporations, private equity funds, asset managers, developers, high net worth individuals, and SMEs."
+      "Chevalier Law LLC is a boutique law firm with expertise in corporate, capital markets, commercial litigation, international arbitration, and corporate real estate. Its lawyers have worked at major international and local law firms and large SGX-ST listed companies and pride themselves on delivering commercial, efficient, incisive and client-focused solutions.",
+      "We act for a wide range of clients including Singapore and Hong Kong listed companies, issue managers, private equity funds, multinational companies, Chinese conglomerates, asset management companies, developers, construction companies, high net worth individuals, and small and medium enterprises. Our practice areas include mergers & acquisitions, capital markets, commercial litigation, international arbitration, private equity, transactions with PRC elements, corporate real estate and corporate secretarial services."
     ],
   },
   history: {
@@ -39,7 +38,7 @@ export default function AboutPage() {
       <section className="relative w-full z-0">
         <div className="relative w-full h-[42vh] sm:h-[50vh] lg:h-[56vh]">
           <Image
-            src="/chevalier.jpeg"   // <-- put a sharper image in /public
+            src="/chevalier.jpeg"
             alt="About Chevalier Law LLC"
             fill
             priority

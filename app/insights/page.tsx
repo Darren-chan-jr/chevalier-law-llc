@@ -19,7 +19,7 @@ export default function InsightsPage() {
       {/* Hero */}
       <section className="relative h-[220px] sm:h-[260px] overflow-hidden">
         <Image
-          src="/insights/hero.jpg"   // put a banner at /public/insights/hero.jpg
+          src="/insights/hero.jpg"
           alt="Knowledge & Insights"
           fill
           className="object-cover"

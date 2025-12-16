@@ -11,7 +11,7 @@ export default function Hero() {
             </p>
             <div className="mt-6 flex gap-3">
               <a href="/practice-areas" className="px-5 py-3 rounded-2xl bg-brand text-white text-sm hover:bg-brand-light">Our Expertise</a>
-              <a href="/contact" className="px-5 py-3 rounded-2xl border text-sm hover:bg-gray-50">Contact Us</a>
+              <a href="/contact" className="px-5 py-3 rounded-2xl bg-brand text-white text-sm hover:bg-brand-light">Contact Us</a>
             </div>
           </div>
           <div className="rounded-2xl aspect-[4/3] bg-gray-100" />

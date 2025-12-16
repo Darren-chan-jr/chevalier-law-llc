@@ -13,6 +13,9 @@ const config: Config = {
           dark: "rgba(17,39,60,1)",
           accent: "#B19D70" // keep gold accent if you want contrast
         }
+      },
+      fontFamily: {
+        brand: ['"Cinzel"', 'serif']
       }
     },
   },
